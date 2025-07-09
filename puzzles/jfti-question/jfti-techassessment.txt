@@ -1,0 +1,42 @@
+Question 1
+Technical writing is an important skill to have in the analytics and computer programming industry for many reasons.
+
+Before we introduce our coding assessment, please explain why YOU think technical writing is important, specifically as it pertains to your role as a software developer, analyst, etc.?
+
+
+Question 2
+***PART 1: CODING ASSESSMENT***
+
+PLEASE COMPLETE IN C++
+
+Create a program that accepts an integer 'n' as an argument and executes the fizz buzz task as follows: 
+    Starting at 1 and ending 'n' print the following on each line 
+	    If the number divisible by only 3, the word Fizz should be printed.
+		If the number divisible by only 5, the word Buzz should be printed.
+		If the number is divisible by both 3 and 5, FizzBuzz should be printed.
+		otherwise print the number. 
+
+Limitations:
+
+1) You must use at least 3 different classes.
+2) You must use inheritance and virtual functions.
+3) Each class can only print one case (i.e. one class prints Fizz, one prints Buzz, and one prints the number)
+4) The base class must have a function that accepts an integer and that function should execute the task.
+5) In the main function of the program you must instantiate a base class object with an inherited class.
+
+The code below is an idea to use as a framework:
+
+void main(int argc, char argv)
+{
+int n = // put argument 2 here;
+BaseClass* b = new InheritedClass;
+b.printSolution(n)
+}
+
+***PART 2: TECHNICAL WRITING ASSESSMENT***
+
+Below your code, and once completed, please write a short paragraph (no more than 8 sentences) explaining the program you just created. 
+Keep in mind that you need to illustrate YOUR code and how it functions, as opposed to restating the prompt you were assigned. 
+As a general rule: your goal is to elaborate on your code well enough to ensure it can be followed by someone unfamiliar with the scope of the project.
+
+NOTE: Comment-out your technical writing piece so it doesn't get confused with the program you just created.

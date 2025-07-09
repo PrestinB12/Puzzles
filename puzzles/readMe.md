@@ -1,0 +1,1 @@
+For coding queestions i encounter
